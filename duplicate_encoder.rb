@@ -1,5 +1,5 @@
 def duplicate_encode(word)
-  # word.downcase.chars.map {|x| word.downcase.count(x) > 1 ? ")" : "("}.join("")
+  # 
     symbols = Hash.new;
   symbols.default = -1;
   
@@ -22,3 +22,6 @@ def duplicate_encode(word)
   puts output
   return output
   end
+
+#Best
+  #word.downcase.chars.map {|x| word.downcase.count(x) > 1 ? ")" : "("}.join("")
